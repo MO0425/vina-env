@@ -1,0 +1,20 @@
+name: vina
+channels:
+  - conda-forge
+  - hcc
+  - defaults
+dependencies:
+  - python=3.10
+  - vina
+  - adfr-suite
+  - rdkit
+  - openbabel
+  - biopython
+  - prody
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib-base
+  - pip
+  - pip:
+      - meeko==0.7.1
